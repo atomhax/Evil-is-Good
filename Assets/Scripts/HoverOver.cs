@@ -6,18 +6,16 @@ public class HoverOver : MonoBehaviour
 {
     public GameObject selection;
     public AudioSource dig;           // Sound
+    private GameObject[] childObjects;
 
     [Header("Positions")]
-    public float axisX = -17.13f;     // X Offset
-    public float axisY = 24.1f;       // Y Value
-    public float axisZ = 15.92f;      // Z Offset
-    public float markY = 4.5f;        // For the marker
+    public float axisY = 8.5f;       // Y Value
+    public float markY = 6.5f;        // For the marker
 
     [Header("Marker Detection")]
     public GameObject marker;         // Marker
     public LayerMask markerLayer;    // Marker layer
     public float markerRadius;   // Radius of sphere
-    public Vector3 markerPosition; // Center of sphere
 
     private Transform t;             // This gameobject's transform
     private GameObject markerObject;  // Marker instantiated clone
@@ -28,7 +26,7 @@ public class HoverOver : MonoBehaviour
     }
 
     // Upon entering the dirtblock, gold, or Gems object which this script is attached to
-    private void OnMouseEnter()
+    private void OnMouseOver()
     {
         RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -40,51 +38,28 @@ public class HoverOver : MonoBehaviour
             selection.SetActive(true);
 
             // Set to current position with offset
-            selection.transform.position = new Vector3(t.position.x + axisX, axisY, t.position.z + axisZ);
+            selection.transform.position = new Vector3(t.position.x, axisY, t.position.z);
             
             if (Input.GetMouseButtonDown(0))
             {
-                if (Physics.CheckSphere(markerPosition, markerRadius, markerLayer))
+                if (Physics.CheckSphere(transform.position, markerRadius, markerLayer))
                 {
                     Debug.Log("Clearing marker...");
                     dig.Play();
-                    markerObject.SetActive(false);
+                    Destroy(markerObject);
                 }
                 else
                 {
                     Debug.Log("Placing marker...");
                     dig.Play();
-
-                    // Reposition marker
+                    markerObject = Instantiate(marker, new Vector3(t.position.x, t.position.y + markY, t.position.z), t.rotation);
                     markerObject.SetActive(true);
-                    markerObject = Instantiate(marker, new Vector3(t.position.x, t.position.y + markY, t.position.z), t.rotation);
                 }
             }
-            // Left click?
-            if (Input.GetMouseButton(0))
+            if (Input.GetMouseButtonDown(0))
             {
-                // Hit marker?
-                if (Physics.CheckSphere(markerPosition, markerRadius, markerLayer))
-                {
-                    Debug.Log("Clearing marker...");
-                    dig.Play();
-                    markerObject.SetActive(false);
-                }
-                else
-                {
-                    Debug.Log("Placing marker...");
-                    dig.Play();
 
-                    // Reposition marker
-                    markerObject = Instantiate(marker, new Vector3(t.position.x, t.position.y + markY, t.position.z), t.rotation);
-                }
             }
-        }
-
-        // Hit bedrock?
-        if (hit.collider.CompareTag("Bedrock"))
-        {
-            selection.SetActive(false);
         }
     }
 

@@ -12,7 +12,7 @@ public class MysteryBoxUncoverLand : MonoBehaviour {
 
 
     // Update is called once per frame
-    void OnMouseEnter () {
+    void OnMouseOver () {
         C = Cam.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, Cam.nearClipPlane));
         if (Input.GetMouseButtonDown(0))
         {

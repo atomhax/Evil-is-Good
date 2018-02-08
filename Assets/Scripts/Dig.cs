@@ -25,20 +25,21 @@ public class Dig : MonoBehaviour
             digTime = 10;
         }
         else
+        {
+            digTime = 3;
+        }
 
-        if (digTime > 0)
+        if (digTime < 0)
         {
             Destroy(gameObject);
             Destroy(fortifiedObject);
         }
-    }
-
-    void Fortified()
-    {
-        Fortifying Imp = GetComponent<Fortifying>();
-        if (Imp.fortifying == true)
+        else
         {
-
+            if (Imp.GetComponent<ImpDig>().Diggingwhat == gameObject)
+            {
+                digTime = digTime - 0.1f;
+            }
         }
     }
 }

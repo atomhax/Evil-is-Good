@@ -7,8 +7,8 @@ TagManager:
   - Dirtblock
   - Selection
   - Land
-  - FPSMove
   - Bedrock
+  - FPSMove
   layers:
   - Default
   - TransparentFX
@@ -18,21 +18,21 @@ TagManager:
   - UI
   - 
   - 
-  - Creature
-  - DHeart
+  - Half Wall
+  - Full Wall
   - Selection
-  - Portal
-  - Chest
-  - Roof
-  - FogOfWar
-  - FoW Object
-  - WallCollision
+  - Dungeon Heart
   - Ground
-  - FortifiedWall
-  - HalfWall
-  - Marked Area
-  - MapObjects
-  - 
+  - Marked
+  - Fog of War
+  - Fog of War Objects
+  - Roof
+  - Lava
+  - Portal
+  - Magic Boxes
+  - Map Sight
+  - Creatures
+  - Hidden Block
   - 
   - 
   - 
