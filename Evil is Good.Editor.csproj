@@ -17,7 +17,7 @@
     </CompilerResponseFile>
     <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
-    <UnityVersion>2018.1.0b5</UnityVersion>
+    <UnityVersion>2018.1.0b6</UnityVersion>
     <RootNamespace>
     </RootNamespace>
     <LangVersion>4</LangVersion>
@@ -52,259 +52,259 @@
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Managed/UnityEngine/UnityEngine">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.AIModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.ARModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.AccessibilityModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.AnimationModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.AssetBundleModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.AudioModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.BaselibModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.ClothModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.CloudWebServicesModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.ClusterInputModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.ClusterRendererModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.CoreModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.CrashReportingModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.DirectorModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.FacebookModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.FacebookModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.FacebookModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.GameCenterModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.GridModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.HotReloadModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.IMGUIModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.ImageConversionModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.InputModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.JSONSerializeModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.ParticleSystemModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.ParticlesLegacyModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.PerformanceReportingModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.PhysicsModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.Physics2DModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.ScreenCaptureModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.SharedInternalsModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.SpatialTrackingModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.SpriteMaskModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.SpriteShapeModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.StyleSheetsModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.SubstanceModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.TLSModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.TerrainModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.TerrainPhysicsModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.TextRenderingModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.TilemapModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.TimelineModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.UIModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.UIElementsModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.UNETModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.UmbraModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.UnityAnalyticsModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.UnityConnectModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.VRModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.VehiclesModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.VideoModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.WebModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.WindModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEngine/UnityEngine.XRModule">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Managed/UnityEditor">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/UnityEditor.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="Managed/Unity.Locator">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\Managed/Unity.Locator.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\Managed/Unity.Locator.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Networking">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Timeline">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Timeline">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TreeEditor">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIAutomation">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UIAutomation">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.GoogleAudioSpatializer">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.GoogleAudioSpatializer">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.HoloLens">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.VR">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Graphs">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Android.Extensions">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.LinuxStandalone.Extensions">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.OSXStandalone.Extensions">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
@@ -316,10 +316,10 @@
       <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.analytics@0.0.19/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Analytics">
-      <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.analytics@0.0.19/Editor/UnityEditor.Analytics.dll</HintPath>
+      <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
@@ -327,38 +327,41 @@
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>D:/Applications/Unity/Hub/Editor/2018.1.0b5/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+      <HintPath>D:/Applications/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="System">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll</HintPath>
     </Reference>
     <Reference Include="System.Core">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Runtime.Serialization.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Runtime.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.Linq.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.Linq.dll</HintPath>
     </Reference>
     <Reference Include="UnityScript">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.dll</HintPath>
     </Reference>
     <Reference Include="UnityScript.Lang">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.Lang.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Boo.Lang">
-      <HintPath>D:\Applications\Unity\Hub\Editor\2018.1.0b5\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\Boo.Lang.dll</HintPath>
+      <HintPath>D:\Applications\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\Boo.Lang.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -366,9 +369,9 @@
       <Project>{499E852B-910A-6475-87B7-CA8F26F54FE1}</Project>
       <Name>Evil is Good</Name>
     </ProjectReference>
-    <ProjectReference Include="com.unity.package-manager-ui.Editor.csproj">
-      <Project>{D6D748A5-0B92-CB91-5DCC-3A82DAD28C54}</Project>
-      <Name>com.unity.package-manager-ui.Editor</Name>
+    <ProjectReference Include="Unity.PackageManagerUI.Editor.csproj">
+      <Project>{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}</Project>
+      <Name>Unity.PackageManagerUI.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -398,15 +401,15 @@
     <None Include="Assets\Terrain Blending Starter Kit\Assets\Shaders\TerrainSplatmapCommonBlend.cginc" />
     <None Include="Assets\Textures\Bluenoise64\COPYING.txt" />
     <None Include="Assets\Textures\Bluenoise64\LICENSE.txt" />
-    <None Include="C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.5.1\Editor\Resources\Styles\Main_Dark.uss" />
-    <None Include="C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.5.1\Editor\Resources\Styles\Main_Light.uss" />
-    <None Include="C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.5.1\Editor\Resources\Templates\Alert.uxml" />
-    <None Include="C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.5.1\Editor\Resources\Templates\PackageDetails.uxml" />
-    <None Include="C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.5.1\Editor\Resources\Templates\PackageGroup.uxml" />
-    <None Include="C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.5.1\Editor\Resources\Templates\PackageItem.uxml" />
-    <None Include="C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.5.1\Editor\Resources\Templates\PackageList.uxml" />
-    <None Include="C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.5.1\Editor\Resources\Templates\PackageManagerWindow.uxml" />
-    <None Include="C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.5.1\Editor\Resources\Templates\PackageSearchFilterTabs.uxml" />
+    <None Include="C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.6.1\Editor\Resources\Styles\Main_Dark.uss" />
+    <None Include="C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.6.1\Editor\Resources\Styles\Main_Light.uss" />
+    <None Include="C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.6.1\Editor\Resources\Templates\Alert.uxml" />
+    <None Include="C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.6.1\Editor\Resources\Templates\PackageDetails.uxml" />
+    <None Include="C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.6.1\Editor\Resources\Templates\PackageGroup.uxml" />
+    <None Include="C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.6.1\Editor\Resources\Templates\PackageItem.uxml" />
+    <None Include="C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.6.1\Editor\Resources\Templates\PackageList.uxml" />
+    <None Include="C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.6.1\Editor\Resources\Templates\PackageManagerWindow.uxml" />
+    <None Include="C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.6.1\Editor\Resources\Templates\PackageSearchFilterTabs.uxml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
