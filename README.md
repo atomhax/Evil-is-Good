@@ -6,7 +6,7 @@ Evil is Good is a game based on the original *Dungeon Keeper* where you manage a
 ### Development
 > Is Development still continuing?
 
-Yes! Of course! This project hasn't been discontinued yet! We will let you know when it is no longer being developed.
+Development has been halted until I have time. I will be accepting pull requests and contributions in the meantime, if they do anything positive at all. Development on this project will return shortly.
 
 ### Goals
 
