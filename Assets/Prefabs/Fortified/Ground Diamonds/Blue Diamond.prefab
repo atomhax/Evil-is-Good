@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4411669646810112}
   m_Layer: 0
-  m_Name: Diamond 1
+  m_Name: Blue Diamond
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64,7 +64,7 @@ Transform:
   m_GameObject: {fileID: 1437794847573416}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 1.5, y: 1, z: 1.5}
+  m_LocalScale: {x: 0.1, y: 0.125, z: 0.1}
   m_Children:
   - {fileID: 4180258978415918}
   m_Father: {fileID: 0}
@@ -83,7 +83,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 2ea7fc30690be1d4f9db9911bc45b135, type: 2}
   m_StaticBatchInfo:

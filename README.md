@@ -19,7 +19,7 @@ I am actively working on this project.
 
 - [ ] Create level selector
 
-- [ ] Make maps in text file (Template included in next commit)
+- [ ] Make maps in text file ( Template included in Maps )
 
 - [ ] Finish Object mapping for map editing
 

@@ -8,12 +8,10 @@ public class LightHover : MonoBehaviour {
     public float wallValue;
     public float floorValue;
 
-    private int LayerGround;
-    private int LayerWall;
+    public LayerMask LayerGround;
+    public LayerMask LayerWall;
 
     void Awake () {
-        LayerGround = LayerMask.NameToLayer("Ground");
-        LayerWall = LayerMask.NameToLayer("Half Wall");
     }
 	
 	void OnMouseOver () {

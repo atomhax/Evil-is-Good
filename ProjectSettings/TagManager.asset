@@ -4,11 +4,15 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Dirtblock
   - Selection
-  - Land
   - Bedrock
-  - FPSMove
+  - FortifiedGround
+  - Ground
+  - Wall
+  - Creature
+  - HiddenWall
+  - SelectionFixer
+  - Selectable
   layers:
   - Default
   - TransparentFX

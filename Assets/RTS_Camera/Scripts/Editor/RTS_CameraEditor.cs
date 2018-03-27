@@ -7,7 +7,7 @@ namespace RTS_Cam
     [CustomEditor(typeof(RTSCamera))]
     public class RTS_CameraEditor : Editor
     {
-        private RTSCamera Camera { get { return target as RTSCamera; } }
+        private RTSCamera camera { get { return target as RTSCamera; } }
 
         private TabsBlock tabs;
 
@@ -19,17 +19,17 @@ namespace RTS_Cam
                 {"Rotation", RotationTab},
                 {"Height", HeightTab}
             });
-            tabs.SetCurrentMethod(Camera.lastTab);
+            tabs.SetCurrentMethod(camera.lastTab);
         }
 
         public override void OnInspectorGUI()
         {
             //base.OnInspectorGUI();
-            Undo.RecordObject(Camera, "RTS_CAmera");
+            Undo.RecordObject(camera, "RTS_CAmera");
             tabs.Draw();
             if (GUI.changed)
-                Camera.lastTab = tabs.curMethodIndex;
-            EditorUtility.SetDirty(Camera);
+                camera.lastTab = tabs.curMethodIndex;
+            EditorUtility.SetDirty(camera);
         }
 
         private void MovementTab()
@@ -37,53 +37,53 @@ namespace RTS_Cam
             using (new HorizontalBlock())
             {
                 GUILayout.Label("Use keyboard input: ", EditorStyles.boldLabel, GUILayout.Width(170f));
-                Camera.useKeyboardInput = EditorGUILayout.Toggle( Camera.useKeyboardInput);
+                camera.useKeyboardInput = EditorGUILayout.Toggle( camera.useKeyboardInput);
             }
-            if(Camera.useKeyboardInput)
+            if(camera.useKeyboardInput)
             {
-                Camera.horizontalAxis = EditorGUILayout.TextField("Horizontal axis name: ", Camera.horizontalAxis);
-                Camera.verticalAxis = EditorGUILayout.TextField("Vertical axis name: ", Camera.verticalAxis);
-                Camera.keyboardMovementSpeed = EditorGUILayout.FloatField("Movement speed: ", Camera.keyboardMovementSpeed);
+                camera.horizontalAxis = EditorGUILayout.TextField("Horizontal axis name: ", camera.horizontalAxis);
+                camera.verticalAxis = EditorGUILayout.TextField("Vertical axis name: ", camera.verticalAxis);
+                camera.keyboardMovementSpeed = EditorGUILayout.FloatField("Movement speed: ", camera.keyboardMovementSpeed);
             }
 
             using (new HorizontalBlock())
             {
                 GUILayout.Label("Screen edge input: ", EditorStyles.boldLabel, GUILayout.Width(170f));
-                Camera.useScreenEdgeInput = EditorGUILayout.Toggle( Camera.useScreenEdgeInput);
+                camera.useScreenEdgeInput = EditorGUILayout.Toggle( camera.useScreenEdgeInput);
             }
 
-            if(Camera.useScreenEdgeInput)
+            if(camera.useScreenEdgeInput)
             {
-                EditorGUILayout.FloatField("Screen edge border size: ", Camera.screenEdgeBorder);
-                Camera.screenEdgeMovementSpeed = EditorGUILayout.FloatField("Screen edge movement speed: ", Camera.screenEdgeMovementSpeed);
+                EditorGUILayout.FloatField("Screen edge border size: ", camera.screenEdgeBorder);
+                camera.screenEdgeMovementSpeed = EditorGUILayout.FloatField("Screen edge movement speed: ", camera.screenEdgeMovementSpeed);
             }
 
             using (new HorizontalBlock())
             {
                 GUILayout.Label("Panning with mouse: ", EditorStyles.boldLabel, GUILayout.Width(170f));
-                Camera.usePanning = EditorGUILayout.Toggle(Camera.usePanning);
+                camera.usePanning = EditorGUILayout.Toggle(camera.usePanning);
             }
-            if(Camera.usePanning)
+            if(camera.usePanning)
             {
-                Camera.panningKey = (KeyCode)EditorGUILayout.EnumPopup("Panning when holding: ", Camera.panningKey);
-                Camera.panningSpeed = EditorGUILayout.FloatField("Panning speed: ", Camera.panningSpeed);
+                camera.panningKey = (KeyCode)EditorGUILayout.EnumPopup("Panning when holding: ", camera.panningKey);
+                camera.panningSpeed = EditorGUILayout.FloatField("Panning speed: ", camera.panningSpeed);
             }
 
             using (new HorizontalBlock())
             {
                 GUILayout.Label("Limit movement: ", EditorStyles.boldLabel, GUILayout.Width(170f));
-                Camera.limitMap = EditorGUILayout.Toggle(Camera.limitMap);
+                camera.limitMap = EditorGUILayout.Toggle(camera.limitMap);
             }
-            if (Camera.limitMap)
+            if (camera.limitMap)
             {
-                Camera.limitX = EditorGUILayout.FloatField("Limit X: ", Camera.limitX);
-                Camera.limitY = EditorGUILayout.FloatField("Limit Y: ", Camera.limitY);
+                camera.limitX = EditorGUILayout.FloatField("Limit X: ", camera.limitX);
+                camera.limitY = EditorGUILayout.FloatField("Limit Y: ", camera.limitY);
             }
 
             GUILayout.Label("Follow target", EditorStyles.boldLabel);
-            Camera.targetFollow = EditorGUILayout.ObjectField("Target to follow: ", Camera.targetFollow, typeof(Transform), true) as Transform;
-            Camera.targetOffset = EditorGUILayout.Vector3Field("Target offset: ", Camera.targetOffset);
-            Camera.followingSpeed = EditorGUILayout.FloatField("Following speed: ", Camera.followingSpeed);
+            camera.targetFollow = EditorGUILayout.ObjectField("Target to follow: ", camera.targetFollow, typeof(Transform)) as Transform;
+            camera.targetOffset = EditorGUILayout.Vector3Field("Target offset: ", camera.targetOffset);
+            camera.followingSpeed = EditorGUILayout.FloatField("Following speed: ", camera.followingSpeed);
         }
 
         private void RotationTab()
@@ -91,24 +91,24 @@ namespace RTS_Cam
             using (new HorizontalBlock())
             {
                 GUILayout.Label("Keyboard input: ", EditorStyles.boldLabel, GUILayout.Width(170f));
-                Camera.useKeyboardRotation = EditorGUILayout.Toggle(Camera.useKeyboardRotation);
+                camera.useKeyboardRotation = EditorGUILayout.Toggle(camera.useKeyboardRotation);
             }
-            if(Camera.useKeyboardRotation)
+            if(camera.useKeyboardRotation)
             {
-                Camera.rotateLeftKey = (KeyCode)EditorGUILayout.EnumPopup("Rotate left: ", Camera.rotateLeftKey);
-                Camera.rotateRightKey = (KeyCode)EditorGUILayout.EnumPopup("Rotate right: ", Camera.rotateRightKey);
-                Camera.rotationSped = EditorGUILayout.FloatField("Keyboard rotation speed", Camera.rotationSped);
+                camera.rotateLeftKey = (KeyCode)EditorGUILayout.EnumPopup("Rotate left: ", camera.rotateLeftKey);
+                camera.rotateRightKey = (KeyCode)EditorGUILayout.EnumPopup("Rotate right: ", camera.rotateRightKey);
+                camera.rotationSped = EditorGUILayout.FloatField("Keyboard rotation speed", camera.rotationSped);
             }
 
             using (new HorizontalBlock())
             {
                 GUILayout.Label("Mouse input: ", EditorStyles.boldLabel, GUILayout.Width(170f));
-                Camera.useMouseRotation = EditorGUILayout.Toggle(Camera.useMouseRotation);
+                camera.useMouseRotation = EditorGUILayout.Toggle(camera.useMouseRotation);
             }
-            if(Camera.useMouseRotation)
+            if(camera.useMouseRotation)
             {
-                Camera.mouseRotationKey = (KeyCode)EditorGUILayout.EnumPopup("Mouse rotation key: ", Camera.mouseRotationKey);
-                Camera.mouseRotationSpeed = EditorGUILayout.FloatField("Mouse rotation speed: ", Camera.mouseRotationSpeed);
+                camera.mouseRotationKey = (KeyCode)EditorGUILayout.EnumPopup("Mouse rotation key: ", camera.mouseRotationKey);
+                camera.mouseRotationSpeed = EditorGUILayout.FloatField("Mouse rotation speed: ", camera.mouseRotationSpeed);
             }
         }
 
@@ -117,40 +117,40 @@ namespace RTS_Cam
             using (new HorizontalBlock())
             {
                 GUILayout.Label("Auto height: ", EditorStyles.boldLabel, GUILayout.Width(170f));
-                Camera.autoHeight = EditorGUILayout.Toggle(Camera.autoHeight);
+                camera.autoHeight = EditorGUILayout.Toggle(camera.autoHeight);
             }
-            if (Camera.autoHeight)
+            if (camera.autoHeight)
             {
-                Camera.heightDampening = EditorGUILayout.FloatField("Height dampening: ", Camera.heightDampening);
+                camera.heightDampening = EditorGUILayout.FloatField("Height dampening: ", camera.heightDampening);
                 EditorGUILayout.PropertyField(serializedObject.FindProperty("groundMask"));
             }
 
             using (new HorizontalBlock())
             {
                 GUILayout.Label("Keyboard zooming: ", EditorStyles.boldLabel, GUILayout.Width(170f));
-                Camera.useKeyboardZooming = EditorGUILayout.Toggle(Camera.useKeyboardZooming);
+                camera.useKeyboardZooming = EditorGUILayout.Toggle(camera.useKeyboardZooming);
             }
-            if(Camera.useKeyboardZooming)
+            if(camera.useKeyboardZooming)
             {
-                Camera.zoomInKey = (KeyCode)EditorGUILayout.EnumPopup("Zoom In: ", Camera.zoomInKey);
-                Camera.zoomOutKey = (KeyCode)EditorGUILayout.EnumPopup("Zoom Out: ", Camera.zoomOutKey);
-                Camera.keyboardZoomingSensitivity = EditorGUILayout.FloatField("Keyboard sensitivity: ", Camera.keyboardZoomingSensitivity);
+                camera.zoomInKey = (KeyCode)EditorGUILayout.EnumPopup("Zoom In: ", camera.zoomInKey);
+                camera.zoomOutKey = (KeyCode)EditorGUILayout.EnumPopup("Zoom Out: ", camera.zoomOutKey);
+                camera.keyboardZoomingSensitivity = EditorGUILayout.FloatField("Keyboard sensitivity: ", camera.keyboardZoomingSensitivity);
             }
 
             using (new HorizontalBlock())
             {
                 GUILayout.Label("Scrollwheel zooming: ", EditorStyles.boldLabel, GUILayout.Width(170f));
-                Camera.useScrollwheelZooming = EditorGUILayout.Toggle(Camera.useScrollwheelZooming);
+                camera.useScrollwheelZooming = EditorGUILayout.Toggle(camera.useScrollwheelZooming);
             }
-            if (Camera.useScrollwheelZooming)
-                Camera.scrollWheelZoomingSensitivity = EditorGUILayout.FloatField("Scrollwheel sensitivity: ", Camera.scrollWheelZoomingSensitivity);
+            if (camera.useScrollwheelZooming)
+                camera.scrollWheelZoomingSensitivity = EditorGUILayout.FloatField("Scrollwheel sensitivity: ", camera.scrollWheelZoomingSensitivity);
 
-            if (Camera.useScrollwheelZooming || Camera.useKeyboardZooming)
+            if (camera.useScrollwheelZooming || camera.useKeyboardZooming)
             {
                 using (new HorizontalBlock())
                 {
-                    Camera.maxHeight = EditorGUILayout.FloatField("Max height: ", Camera.maxHeight);
-                    Camera.minHeight = EditorGUILayout.FloatField("Min height: ", Camera.minHeight);
+                    camera.maxHeight = EditorGUILayout.FloatField("Max height: ", camera.maxHeight);
+                    camera.minHeight = EditorGUILayout.FloatField("Min height: ", camera.minHeight);
                 }
             }  
         }

@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4378785397419920}
   m_Layer: 0
-  m_Name: Diamond 2
+  m_Name: Green Diamond
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64,7 +64,7 @@ Transform:
   m_GameObject: {fileID: 1441363054972556}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 1.5, y: 1, z: 1.5}
+  m_LocalScale: {x: 0.1, y: 0.125, z: 0.1}
   m_Children:
   - {fileID: 4190364047015068}
   m_Father: {fileID: 0}
@@ -83,7 +83,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 20ffe11e77fc8d64bb26489091542d41, type: 2}
   m_StaticBatchInfo:
