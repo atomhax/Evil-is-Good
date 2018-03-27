@@ -1,36 +1,30 @@
-# It is Good to be Evil
-Evil is Good is a game based on the original *Dungeon Keeper* where you manage and build your own dungeon to kill your enemies and conquer the land. This is a clone of that game, that works on modern hardware running Windows, Mac, and Linux. Though you probably want to get to the good stuff. This game is open-source, meaning you can contribute to it, fork from it, and even download the source. It is all developed in Unity3D and will need to be built using Unity3D.
+# Information
+*"It's time Keeper. Wait... You don't remember do you? Let me fill you in on the little itty gritty details. Hmmm. Let's start off with the fact that you were banished..."*
 
+Evil is Good is a clone of the game *Dungeon Keeper* that works on modern hardware, open-source, and has similar mechanics to the original. You play as an Evil Keeper with a job. To destroy and conquer the land! You defeat these so called "Heroes" and other Keepers trying to take over the land. You also find interesting trinkets and learn more about your Evil as you go on. It is Good to be Evil, isn't it Keeper?
+
+This game is currently not in a playable state. Please wait a while or contribute to the project if you wish to play.
 
 # Notes
-### Development
-> Is Development still continuing?
 
-Yes! Development is open and I am actively working on this project. Possibly as we speak!
+I am actively working on this project.
 
-### Goals
+### What needs to be done
 
-* Create Creature, Heroes, and Enemy AI
+- [ ] (Re-)Create Marking System for Imps to dig
 
-* Create Imps and make them have the ability to dig
+- [ ] Allow importing of different user created maps with ease, and organize them into their own section
 
-* Create Menu and Map Select
+- [ ] Create title screen ( New Game, Load Game, Options, Credits )
 
-* Create multiple maps
+- [ ] Create level selector
 
-* Create level outcome
+- [ ] Make maps in text file (Template included in next commit)
 
-* Fix and Update UI
+- [ ] Finish Object mapping for map editing
 
-* Create and replace textures from Google Images
+- [ ] Create AI for Enemy keeper and creatures
 
-* Optimize Code
+- [ ] Create a functional map
 
-* Work on Models
-
-* Create Credits
-
-### Contributing
-
-If you contibute, make sure you state what you fixed or added. Contribution is important for this project, as it helps keep the project active. Thannk you for contributing if you did! Much Appreciated.
-
+- [ ] Create sprites/meshes for creatures
