@@ -9,138 +9,83 @@ public class ToolsButtons : MonoBehaviour {
     public Sprite Open;
     public Sprite Close;
 
-    [Header("Buttons")]
-    public GameObject Info;
-    public GameObject Rooms;
-    public GameObject Spells;
-    public GameObject MB;
-    public GameObject Traps;
-    public GameObject Creature;
-
     [Header("Panels")]
     public GameObject InfoPanel;
     public GameObject RoomsPanel;
     public GameObject SpellsPanel;
-    public GameObject MBPanel;
     public GameObject TrapsPanel;
     public GameObject CreaturePanel;
+    public GameObject parent;
 
     [Header("Sound")]
     public AudioSource TabClick;
+
+    private GameObject Info;
+    private GameObject Rooms;
+    private GameObject Spells;
+    private GameObject Traps;
+    private GameObject Creature;
 
     // Use this for initialization
     void Start () {
         InfoPanel.SetActive(true);
         RoomsPanel.SetActive(false);
         SpellsPanel.SetActive(false);
-        MBPanel.SetActive(false);
         TrapsPanel.SetActive(false);
         CreaturePanel.SetActive(false);
-        Info.GetComponent<Image>().sprite = Open;
-        Rooms.GetComponent<Image>().sprite = Close;
-        Spells.GetComponent<Image>().sprite = Close;
-        MB.GetComponent<Image>().sprite = Close;
-        Traps.GetComponent<Image>().sprite = Close;
-        Creature.GetComponent<Image>().sprite = Close;
+        Info = GameObject.Find("InfoButton");
+        Rooms = GameObject.Find("RoomsButton");
+        Spells = GameObject.Find("SpellsButton");
+        Traps = GameObject.Find("TrapsButton");
+        Creature = GameObject.Find("CreatureButton");
     }
 	
 	// Update is called once per frame
 	public void OnClick () {
-		if (gameObject == Info)
+		if (gameObject.name == "Info")
         {
             TabClick.Play();
             InfoPanel.SetActive(true);
             RoomsPanel.SetActive(false);
             SpellsPanel.SetActive(false);
-            MBPanel.SetActive(false);
             TrapsPanel.SetActive(false);
             CreaturePanel.SetActive(false);
-            Info.GetComponent<Image>().sprite = Open;
-            Rooms.GetComponent<Image>().sprite = Close;
-            Spells.GetComponent<Image>().sprite = Close;
-            MB.GetComponent<Image>().sprite = Close;
-            Traps.GetComponent<Image>().sprite = Close;
-            Creature.GetComponent<Image>().sprite = Close;
         }
-        if (gameObject == Rooms)
+        if (gameObject.name == "Rooms")
         {
             TabClick.Play();
             InfoPanel.SetActive(false);
             RoomsPanel.SetActive(true);
             SpellsPanel.SetActive(false);
-            MBPanel.SetActive(false);
             TrapsPanel.SetActive(false);
             CreaturePanel.SetActive(false);
-            Info.GetComponent<Image>().sprite = Close;
-            Rooms.GetComponent<Image>().sprite = Open;
-            Spells.GetComponent<Image>().sprite = Close;
-            MB.GetComponent<Image>().sprite = Close;
-            Traps.GetComponent<Image>().sprite = Close;
-            Creature.GetComponent<Image>().sprite = Close;
         }
-        if (gameObject == Spells)
+        if (gameObject.name == "Spells")
         {
             TabClick.Play();
             InfoPanel.SetActive(false);
             RoomsPanel.SetActive(false);
             SpellsPanel.SetActive(true);
-            MBPanel.SetActive(false);
             TrapsPanel.SetActive(false);
             CreaturePanel.SetActive(false);
-            Info.GetComponent<Image>().sprite = Close;
-            Rooms.GetComponent<Image>().sprite = Close;
-            Spells.GetComponent<Image>().sprite = Open;
-            MB.GetComponent<Image>().sprite = Close;
-            Traps.GetComponent<Image>().sprite = Close;
-            Creature.GetComponent<Image>().sprite = Close;
         }
-        if (gameObject == MB)
+        if (gameObject.name == "Traps")
         {
             TabClick.Play();
             InfoPanel.SetActive(false);
             RoomsPanel.SetActive(false);
             SpellsPanel.SetActive(false);
-            MBPanel.SetActive(true);
-            TrapsPanel.SetActive(false);
-            CreaturePanel.SetActive(false);
-            Info.GetComponent<Image>().sprite = Close;
-            Rooms.GetComponent<Image>().sprite = Close;
-            Spells.GetComponent<Image>().sprite = Close;
-            MB.GetComponent<Image>().sprite = Open;
-            Traps.GetComponent<Image>().sprite = Close;
-            Creature.GetComponent<Image>().sprite = Close;
-        }
-        if (gameObject == Traps)
-        {
-            TabClick.Play();
-            InfoPanel.SetActive(false);
-            RoomsPanel.SetActive(false);
-            SpellsPanel.SetActive(false);
-            MBPanel.SetActive(false);
             TrapsPanel.SetActive(true);
             CreaturePanel.SetActive(false);
-            Info.GetComponent<Image>().sprite = Close;
-            Rooms.GetComponent<Image>().sprite = Close;
-            Spells.GetComponent<Image>().sprite = Close;
-            MB.GetComponent<Image>().sprite = Close;
-            Traps.GetComponent<Image>().sprite = Open;
-            Creature.GetComponent<Image>().sprite = Close;
         }
-        if (gameObject == Creature)
+        if (gameObject.name == "Creature")
         {
             TabClick.Play();
             InfoPanel.SetActive(false);
             RoomsPanel.SetActive(false);
             SpellsPanel.SetActive(false);
-            MBPanel.SetActive(false);
             TrapsPanel.SetActive(false);
             CreaturePanel.SetActive(true);
-            Info.GetComponent<Image>().sprite = Close;
-            Rooms.GetComponent<Image>().sprite = Close;
-            Spells.GetComponent<Image>().sprite = Close;
-            MB.GetComponent<Image>().sprite = Close;
-            Traps.GetComponent<Image>().sprite = Close;
-            Creature.GetComponent<Image>().sprite = Open;
         }
     }
 }

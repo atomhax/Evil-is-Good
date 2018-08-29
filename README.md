@@ -7,8 +7,7 @@ This game is currently not in a playable state. Please wait a while or contribut
 
 # Notes
 
-This project has been halted as I no longer have any interests in developing it.
-Feel free to take this project and make it your own.
+I am slightly working on this project.
 
 ### What needs to be done
 

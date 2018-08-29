@@ -13,6 +13,9 @@ TagManager:
   - HiddenWall
   - SelectionFixer
   - Selectable
+  - ButtonTabs
+  - ActionUIButtons
+  - ActionUIPanels
   layers:
   - Default
   - TransparentFX
@@ -37,7 +40,7 @@ TagManager:
   - Map Sight
   - Creatures
   - Hidden Block
-  - 
+  - LightCursor
   - 
   - 
   - 
