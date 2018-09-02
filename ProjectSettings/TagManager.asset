@@ -16,6 +16,8 @@ TagManager:
   - ButtonTabs
   - ActionUIButtons
   - ActionUIPanels
+  - Diggable
+  - Disabled
   layers:
   - Default
   - TransparentFX
@@ -25,8 +27,8 @@ TagManager:
   - UI
   - 
   - 
-  - Half Wall
-  - Full Wall
+  - Walls
+  - 
   - Selection
   - Dungeon Heart
   - Ground
